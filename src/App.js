@@ -13,7 +13,7 @@ import List from "./ListRendering/ListContainer";
 import Inline from "./CssStyling/InlineCss";
 import ExternalCss from "./CssStyling/ExtenalCss";
 import StyledModule from "./CssStyling/StylesModules";
-
+import Form from "./Forms/Form";
 
 
 //stateless functional component
@@ -37,10 +37,11 @@ function App() {
     <ClickEventInAClassComp/>8
     <ParentComponent/>
     <GreetingComponent/>
-    <List/>*/}
+    <List/>
     <Inline/>
     <ExternalCss/>
-    <StyledModule/>
+    <StyledModule/>*/}
+    <Form/>
     </div>
   );
 }
