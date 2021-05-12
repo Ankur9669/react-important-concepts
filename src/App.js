@@ -14,6 +14,7 @@ import Inline from "./CssStyling/InlineCss";
 import ExternalCss from "./CssStyling/ExtenalCss";
 import StyledModule from "./CssStyling/StylesModules";
 import Form from "./Forms/Form";
+import LifecycleMethods from "./lifecycleMethods/LifecycleMetods";
 
 
 //stateless functional component
@@ -40,8 +41,9 @@ function App() {
     <List/>
     <Inline/>
     <ExternalCss/>
-    <StyledModule/>*/}
-    <Form/>
+    <StyledModule/>
+    <Form/>*/}
+    <LifecycleMethods/>
     </div>
   );
 }
