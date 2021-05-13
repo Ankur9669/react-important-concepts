@@ -19,6 +19,7 @@ import ParentComponent1 from "./PureComponents/ParentComponent";
 import Purecomponent from './PureComponents/Purecomponent';
 import ParentComponent2 from "./MemoFunctionalComponent/ParentComponent";
 import RefComponent from "./RefsInReact/RefComponent";
+import ClassComponentForRef from "./RefsInReact/RefOnAClassComponent/ClassComponentForRef";
 
 //stateless functional component
 function App() {
@@ -48,8 +49,9 @@ function App() {
     <Form/>
     <LifecycleMethods/>
     <ParentComponent1/>
-    <ParentComponent2/>*/}
-    <RefComponent/>
+    <ParentComponent2/>
+    <RefComponent/>*/}
+    <ClassComponentForRef/>
     </div>
   );
 }
