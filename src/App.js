@@ -50,8 +50,8 @@ function App() {
     <LifecycleMethods/>
     <ParentComponent1/>
     <ParentComponent2/>
-    <RefComponent/>*/}
-    <ClassComponentForRef/>
+    <RefComponent/>
+    <ClassComponentForRef/>*/}
     </div>
   );
 }
