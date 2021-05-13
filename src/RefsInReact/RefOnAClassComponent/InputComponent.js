@@ -2,17 +2,17 @@ import React, { Component } from 'react'
 
 export class InputComponent extends Component 
 {
-    constructor(props) {
+    constructor(props) 
+    {
         super(props)
-    
         this.focusRef = React.createRef();
     }
     
     focusOnInput()
     {
         //Here we are focusing on input element
-        //this.focusRef.current.focus();
-        this.focusRef.current.value = "Ankur";
+        this.focusRef.current.focus();
+        //this.focusRef.current.value = "Ankur";
     }
 
     render() {
