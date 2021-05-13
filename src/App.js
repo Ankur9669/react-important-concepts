@@ -15,7 +15,9 @@ import ExternalCss from "./CssStyling/ExtenalCss";
 import StyledModule from "./CssStyling/StylesModules";
 import Form from "./Forms/Form";
 import LifecycleMethods from "./lifecycleMethods/LifecycleMetods";
-
+import ParentComponent1 from "./PureComponents/ParentComponent";
+import Purecomponent from './PureComponents/Purecomponent';
+import ParentComponent2 from "./MemoFunctionalComponent/ParentComponent";
 
 //stateless functional component
 function App() {
@@ -42,8 +44,10 @@ function App() {
     <Inline/>
     <ExternalCss/>
     <StyledModule/>
-    <Form/>*/}
+    <Form/>
     <LifecycleMethods/>
+    <ParentComponent1/>*/}
+    <ParentComponent2/>
     </div>
   );
 }
