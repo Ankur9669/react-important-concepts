@@ -18,6 +18,7 @@ import LifecycleMethods from "./lifecycleMethods/LifecycleMetods";
 import ParentComponent1 from "./PureComponents/ParentComponent";
 import Purecomponent from './PureComponents/Purecomponent';
 import ParentComponent2 from "./MemoFunctionalComponent/ParentComponent";
+import RefComponent from "./RefsInReact/RefComponent";
 
 //stateless functional component
 function App() {
@@ -46,8 +47,9 @@ function App() {
     <StyledModule/>
     <Form/>
     <LifecycleMethods/>
-    <ParentComponent1/>*/}
-    <ParentComponent2/>
+    <ParentComponent1/>
+    <ParentComponent2/>*/}
+    <RefComponent/>
     </div>
   );
 }
