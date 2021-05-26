@@ -20,6 +20,8 @@ import Purecomponent from './PureComponents/Purecomponent';
 import ParentComponent2 from "./MemoFunctionalComponent/ParentComponent";
 import RefComponent from "./RefsInReact/RefComponent";
 import ClassComponentForRef from "./RefsInReact/RefOnAClassComponent/ClassComponentForRef";
+import ClickCounter from './components/HigherOrderComponents/ClickCounter';
+import HoverCounter from './components/HigherOrderComponents/HoverCounter';
 
 //stateless functional component
 function App() {
@@ -52,6 +54,8 @@ function App() {
     <ParentComponent2/>
     <RefComponent/>
     <ClassComponentForRef/>*/}
+    <ClickCounter/>
+    <HoverCounter/>
     </div>
   );
 }
